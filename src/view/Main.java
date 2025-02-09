@@ -63,7 +63,7 @@ public class Main {
             produtoDao.adicionarProduto(novoProd);
             System.out.println(novoProd);
         }
-        catch (IOException | ClassNotFoundException erro){
+        catch (IOException | ClassNotFoundException e){
             JOptionPane.showMessageDialog(null, "Erro ao cadastrar produto");
         }
     }
